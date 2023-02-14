@@ -17,6 +17,6 @@ app.get('/productos', (req, res) => {
     res.sendFile(path.join(__dirname, 'views/productos.html'))
 })
 
-app.get('/productos1', (req, res) => {
+app.get('/productos/1', (req, res) => {
     res.sendFile(path.join(__dirname, 'views/productos1.html'))
 })
